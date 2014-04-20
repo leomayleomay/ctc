@@ -1,6 +1,8 @@
 # Ctc
 
-TODO: Write a gem description
+Convert the [China Telegraph
+Code](http://en.wikipedia.org/wiki/Chinese_telegraph_code) to Chinese
+chinese character and vice versa.
 
 ## Installation
 
@@ -18,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+* `Ctc::Kanji2Ctc.find("刘")` will yield "0491"
+* `Ctc::Ctc2Kanji.find("0491")` will yield "刘"
 
 ## Contributing
 
